@@ -67,7 +67,7 @@ body {
 
 .navigation a:hover {
     color: #0d47a1;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .content > div {
@@ -115,27 +115,4 @@ b {
     color: #1976d2;
 }
 
-@media (max-width: 900px) {
-    .container {
-        padding: 16px 8px;
-    }
-    .content-inside {
-        flex-direction: column;
-        gap: 18px;
-    }
-    .content-inside img {
-        max-width: 100%;
-    }
-}
 
-@media (max-width: 600px) {
-    .header h1 {
-        font-size: 2rem;
-    }
-    h2 {
-        font-size: 1.3rem;
-    }
-    .container {
-        padding: 6px 2px;
-    }
-}
